@@ -1,32 +1,22 @@
-## Blog Post Title From First Header
+## How to Set Perplexity as Chrome's Default Search Engine
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+To set Perplexity AI as your default search engine in Google Chrome, follow these steps:
 
-If the file does not start with a header, then the post title will be derived from the filename.
+- Open Google Chrome on your computer.
+- Click on the three vertical dots in the top-right corner of the browser window to open the Chrome menu.
+- Click on "Settings" from the drop-down menu.
+- In the left-hand sidebar, click on "Search engine" link.
+- Click on "Manage search engines and site search".
+- Within the "Site search" section and click on the "Add" button.
+- In the dialog that appears, fill in the following details:
+  - Name: Perplexity AI
+  - Shortcut: @perplexity
+  - URL: https://www.perplexity.ai/search?q=%s
+- Click "Add" to save.
+- Click on the three dots next to Perplexity AI and select "Make default" from the drop-down menu.
 
-This is a sample blog post. You can talk about all sorts of fun things here.
+Now when you perform a search (e.g. within the address bar of the chrome browser) it should automatically use Perplexity AI for the search! :)
 
----
+FYI, you can also use the shortcut (@perplexity) in the address bar to quickly search with Perplexity AI even if it's not set as the default search engine
 
-### This is a header
-
-#### Some T-SQL Code
-
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
-
-#### Some PowerShell Code
-
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
-```
+You can also modify the google shortcut so instead of pointing to `google.com` it points to `@google`, which will enable you to use the shortcut (@google) to search using google's search engine.
