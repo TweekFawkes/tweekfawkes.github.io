@@ -12,12 +12,10 @@ Universal and Transferable Adversarial Attacks on Aligned Language Models
 Jul 27, 2023
 https://arxiv.org/pdf/2307.15043
 https://arxiv.org/abs/2307.15043
+https://github.com/llm-attacks/llm-attacks/
+https://llm-attacks.org/
 
 Jailbreaking Black Box Large Language Models in Twenty Queries
 October 12, 2023
 https://arxiv.org/pdf/2310.08419
 https://arxiv.org/abs/2310.08419
-
-
-
-
